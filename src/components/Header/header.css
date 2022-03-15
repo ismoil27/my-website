@@ -117,3 +117,22 @@ header {
     padding: 2rem 0;
   }
 }
+
+@media screen and (max-width: 376px) {
+  header {
+    height: 100vh;
+    padding-top: 2rem;
+  }
+
+  .me {
+    width: 20rem;
+    left: calc(50% - 14rem);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    position: absolute;
+    height: 30rem;
+    margin-left: 4rem;
+    padding: 2rem 0;
+  }
+}
