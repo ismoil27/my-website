@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBookBookmark } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { IoIosCodeWorking } from "react-icons/io";
 import { RiMessage3Line } from "react-icons/ri";
 
 const Nav = () => {
@@ -27,20 +27,20 @@ const Nav = () => {
         <AiOutlineUser />{" "}
       </a>
       <a
-        href="#experience"
+        href="#skills"
         rel="noreferrer"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
       >
         <BiBookBookmark />{" "}
       </a>
       <a
-        href="#services"
+        href="#portfolio"
         rel="noreferrer"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <RiServiceLine />{" "}
+        <IoIosCodeWorking />{" "}
       </a>
       <a
         href="#contact"

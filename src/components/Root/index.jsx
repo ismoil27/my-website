@@ -2,8 +2,8 @@ import React from "react";
 import Header from "../Header";
 import Nav from "../Nav";
 import About from "../About";
-import Experience from "../Experience";
-import Services from "../Services";
+import Skills from "../Skills";
+// import Services from "../Services";
 import Portfolio from "../Portfolio";
 import Testimonials from "../Testimonials";
 import Contact from "../Contact";
@@ -15,8 +15,8 @@ export const Root = () => {
       <Header />
       <Nav />
       <About />
-      <Experience />
-      <Services />
+      <Skills />
+      {/* <Services /> */}
       <Portfolio />
       <Testimonials />
       <Contact />
