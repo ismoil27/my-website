@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.219deb20.css",
+    "main.js": "/static/js/main.6b32fbc2.js",
+    "static/media/greenshop.png": "/static/media/greenshop.ee6362371940efabb68e.png",
+    "static/media/portfolio.jpeg": "/static/media/portfolio.637d659cb7e6abec26aa.jpeg",
+    "static/media/me.jpeg": "/static/media/me.f6ec13bf7f5bacb9a41d.jpeg",
+    "static/media/cv.pdf": "/static/media/cv.d9136356be216be1aa9c.pdf",
+    "index.html": "/index.html",
+    "main.219deb20.css.map": "/static/css/main.219deb20.css.map",
+    "main.6b32fbc2.js.map": "/static/js/main.6b32fbc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219deb20.css",
+    "static/js/main.6b32fbc2.js"
+  ]
+}
