@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import Houzing from "../../assets/images/Houzing.png";
 
 import { portfolio } from "../../utilities/portfolio";
 
