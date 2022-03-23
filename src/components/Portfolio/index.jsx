@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import Greenshop from "../../assets/images/greenshop.png";
+import Houzing from "../../assets/images/Houzing.png";
+
+import { portfolio } from "../../utilities/portfolio";
 
 const Portfolio = () => {
   return (
@@ -9,29 +11,60 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        {portfolio.map((value) => (
+          <article key={value.id} className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={value.img} alt="" />
+            </div>
+            <h3>{value.title} </h3>
+            <div className="portfolio__item-cta">
+              <a
+                href={value.github}
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                href={value.demo}
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+      {/* 
+      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Greenshop} alt="" />
+            <img src={Houzing} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/MrIsmoiljon/greenshop"
-            rel="noreferrer"
-            className="btn"
-            target="_blank"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://github.com/MrIsmoiljon"
-            rel="noreferrer"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <h3>Houzing Project</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/MrIsmoiljon/houzing-project"
+              rel="noreferrer"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://houzing-project.netlify.app/"
+              rel="noreferrer"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
-      </div>
+      </div> */}
     </section>
   );
 };

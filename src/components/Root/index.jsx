@@ -5,7 +5,7 @@ import About from "../About";
 import Skills from "../Skills";
 // import Services from "../Services";
 import Portfolio from "../Portfolio";
-import Testimonials from "../Testimonials";
+// import Testimonials from "../Testimonials";
 import Contact from "../Contact";
 import Footer from "../Footer";
 
@@ -18,7 +18,7 @@ export const Root = () => {
       <Skills />
       {/* <Services /> */}
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>
