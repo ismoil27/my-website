@@ -19,7 +19,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experinece</h5>
-              <small>1+ Year Working</small>
+              <small>1+ Year Making Projects</small>
             </article>
 
             <article className="about__card">
@@ -30,10 +30,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo natus
-            repudiandae esse excepturi dolore totam dicta. Assumenda rerum
-            explicabo perspiciatis aspernatur dolor aliquam harum, doloremque
-            voluptatum, magni vitae nesciunt. Quos.
+            I've been learning HTML, CSS, JavaScript, ReactJS for couple of
+            years and it's been an amazing time for myself. I am a junior
+            developer. I have build more than 10 projects individually.
           </p>
 
           <a href="#contact" className="btn btn-primary">
