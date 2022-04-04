@@ -11,22 +11,23 @@ export const data = [
   },
   {
     id: 3,
-    language: "JavaScript",
-    experience: "Experienced",
-  },
-  {
-    id: 4,
     language: "Bootstrap",
     experience: "Intermediate",
   },
   {
-    id: 5,
+    id: 4,
     language: "Tailwind",
     experience: "Basic",
   },
   {
+    id: 5,
+    language: "JavaScript",
+    experience: "Experienced",
+  },
+
+  {
     id: 6,
-    language: "React",
+    language: "ReactJS",
     experience: "Experienced",
   },
 ];

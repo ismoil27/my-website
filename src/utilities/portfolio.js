@@ -1,4 +1,5 @@
 import Houzing from "../assets/images/Houzing.png";
+import Amazon from "../assets/images/amazon.png";
 
 export const portfolio = [
   {
@@ -11,8 +12,8 @@ export const portfolio = [
 
   {
     id: 2,
-    img: Houzing,
-    title: "Houzing Project",
+    img: Amazon,
+    title: "Amazon Clone",
     github: "https://github.com/MrIsmoiljon/amazon-clone",
     demo: "https://clone-39f84.web.app/",
   },

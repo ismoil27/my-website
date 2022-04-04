@@ -53,6 +53,14 @@ header {
   padding: 5rem 1.5rem;
 }
 
+.me__header {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
 /* ===== SCROLL DOWN ===== */
 
 .scroll__down {
