@@ -13,8 +13,8 @@ export const portfolio = [
     id: 2,
     img: Houzing,
     title: "Houzing Project",
-    github: "https://github.com/MrIsmoiljon/houzing-project",
-    demo: "https://houzing-project.netlify.app/",
+    github: "https://github.com/MrIsmoiljon/amazon-clone",
+    demo: "https://clone-39f84.web.app/",
   },
   {
     id: 3,
