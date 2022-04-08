@@ -1,5 +1,6 @@
 import Houzing from "../assets/images/Houzing.png";
 import Amazon from "../assets/images/amazon.png";
+import Easy from "../assets/images/easy.png";
 
 export const portfolio = [
   {
@@ -19,13 +20,14 @@ export const portfolio = [
     github: "https://github.com/MrIsmoiljon/amazon-clone",
     demo: "https://clone-39f84.web.app/",
   },
-  // {
-  //   id: 3,
-  //   img: Houzing,
-  //   title: "Houzing Project",
-  //   github: "https://github.com/MrIsmoiljon/houzing-project",
-  //   demo: "https://houzing-project.netlify.app/",
-  // },
+  {
+    id: 3,
+    img: Easy,
+    title: "Easy Purchase",
+    desc: "E-commerce website using HTML, CSS, JAVASCRIPT",
+    github: "https://github.com/MrIsmoiljon/Ecommerce",
+    demo: "https://easypurchase.netlify.app/   ",
+  },
   // {
   //   id: 4,
   //   img: Houzing,
