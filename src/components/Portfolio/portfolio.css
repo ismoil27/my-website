@@ -26,10 +26,15 @@
   margin: 1.2rem 0 2rem;
 }
 
+/* .portfolio__item span {
+  margin: 20px 0;
+} */
+
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /* =====MEDIA QUERIES (MEDIUM DEVICES)  */

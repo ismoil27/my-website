@@ -16,6 +16,7 @@ const Portfolio = () => {
               <img src={value.img} alt="" />
             </div>
             <h3>{value.title} </h3>
+            <span>{value.desc}</span>
             <div className="portfolio__item-cta">
               <a
                 href={value.github}
