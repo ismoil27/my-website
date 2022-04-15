@@ -1,6 +1,8 @@
 import Houzing from "../assets/images/Houzing.png";
 import Amazon from "../assets/images/amazon.png";
 import Easy from "../assets/images/easy.png";
+import Tesla from "../assets/images/tesla.png";
+import ShoppingCart from "../assets/images/shoppingcart.png";
 
 export const portfolio = [
   {
@@ -28,20 +30,22 @@ export const portfolio = [
     github: "https://github.com/MrIsmoiljon/Ecommerce",
     demo: "https://easypurchase.netlify.app/   ",
   },
-  // {
-  //   id: 4,
-  //   img: Houzing,
-  //   title: "Houzing Project",
-  //   github: "https://github.com/MrIsmoiljon/houzing-project",
-  //   demo: "https://houzing-project.netlify.app/",
-  // },
-  // {
-  //   id: 5,
-  //   img: Houzing,
-  //   title: "Houzing Project",
-  //   github: "https://github.com/MrIsmoiljon/houzing-project",
-  //   demo: "https://houzing-project.netlify.app/",
-  // },
+  {
+    id: 4,
+    img: ShoppingCart,
+    title: "Shopping Cart",
+    desc: "This shopping cart created using UseReducer and Context API hooks",
+    github: "https://github.com/MrIsmoiljon/shopping-cart",
+    demo: "https://symphonious-tarsier-fe6a72.netlify.app/",
+  },
+  {
+    id: 5,
+    img: Tesla,
+    title: "Tesla Clone",
+    desc: "Tesla Clone landing page created using Redux",
+    github: " https://github.com/MrIsmoiljon/tesla-clone ",
+    demo: " https://flourishing-kringle-82d7ee.netlify.app/ ",
+  },
   // {
   //   id: 6,
   //   img: Houzing,
