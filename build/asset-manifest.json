@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dbf02c8f.css",
-    "main.js": "/static/js/main.5a9a44bd.js",
+    "main.js": "/static/js/main.54db67de.js",
     "static/media/Houzing.png": "/static/media/Houzing.1840a3b7882ccb75a29b.png",
     "static/media/easy.png": "/static/media/easy.d2ede9817b08ca6b7947.png",
     "static/media/shoppingcart.png": "/static/media/shoppingcart.7fca694ad9ce14dccdf2.png",
@@ -9,13 +9,13 @@
     "static/media/amazon.png": "/static/media/amazon.7c69d214a7b5f04b1260.png",
     "static/media/me2.JPG": "/static/media/me2.bacb61057637615363ff.JPG",
     "static/media/portfolio.jpeg": "/static/media/portfolio.637d659cb7e6abec26aa.jpeg",
-    "static/media/cv.pdf": "/static/media/cv.75629b92fc98acde275f.pdf",
+    "static/media/cv.pdf": "/static/media/cv.1422daa4019388da87be.pdf",
     "index.html": "/index.html",
     "main.dbf02c8f.css.map": "/static/css/main.dbf02c8f.css.map",
-    "main.5a9a44bd.js.map": "/static/js/main.5a9a44bd.js.map"
+    "main.54db67de.js.map": "/static/js/main.54db67de.js.map"
   },
   "entrypoints": [
     "static/css/main.dbf02c8f.css",
-    "static/js/main.5a9a44bd.js"
+    "static/js/main.54db67de.js"
   ]
 }
