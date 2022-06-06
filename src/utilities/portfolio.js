@@ -10,8 +10,8 @@ export const portfolio = [
     img: Houzing,
     title: "Houzing Project",
     desc: "This is the real project now going on working with Backend",
-    github: "https://github.com/MrIsmoiljon/houzing-project",
-    demo: "https://houzing-project.netlify.app/",
+    github: "https://github.com/ismoil27/houzing",
+    demo: "https://ismoiljon-houzing-project.netlify.app/",
   },
 
   {
@@ -19,7 +19,7 @@ export const portfolio = [
     img: Amazon,
     title: "Amazon Clone",
     desc: "This clone is made with firebase and it is fully functional",
-    github: "https://github.com/MrIsmoiljon/amazon-clone",
+    github: "https://github.com/ismoil27/amazon-clone",
     demo: "https://clone-39f84.web.app/",
   },
   {
@@ -27,7 +27,7 @@ export const portfolio = [
     img: Easy,
     title: "Easy Purchase",
     desc: "E-commerce website using HTML, CSS, JAVASCRIPT",
-    github: "https://github.com/MrIsmoiljon/Ecommerce",
+    github: "https://github.com/ismoil27/Ecommerce",
     demo: "https://easypurchase.netlify.app/   ",
   },
   {
@@ -35,7 +35,7 @@ export const portfolio = [
     img: ShoppingCart,
     title: "Shopping Cart",
     desc: "This shopping cart created using UseReducer and Context API hooks",
-    github: "https://github.com/MrIsmoiljon/shopping-cart",
+    github: "https://github.com/ismoil27/shopping-cart",
     demo: "https://symphonious-tarsier-fe6a72.netlify.app/",
   },
   {
@@ -43,7 +43,7 @@ export const portfolio = [
     img: Tesla,
     title: "Tesla Clone",
     desc: "Tesla Clone landing page created using Redux",
-    github: " https://github.com/MrIsmoiljon/tesla-clone ",
+    github: " https://github.com/ismoil27/tesla-clone ",
     demo: " https://flourishing-kringle-82d7ee.netlify.app/ ",
   },
   // {
